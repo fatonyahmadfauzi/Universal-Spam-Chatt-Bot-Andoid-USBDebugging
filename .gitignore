@@ -1,0 +1,31 @@
+# Ignore file hasil eksekusi Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore file log dan database
+*.log
+*.sqlite3
+
+# Ignore file environment
+.env
+venv/
+env/
+
+# Ignore file sistem
+.DS_Store
+Thumbs.db
+
+# Ignore ADB debug file
+*.bak
+*.tmp
+
+# Ignore folder build/dist
+build/
+dist/
+*.egg-info/
+
+# Ignore file konfigurasi IDE
+.idea/
+.vscode/

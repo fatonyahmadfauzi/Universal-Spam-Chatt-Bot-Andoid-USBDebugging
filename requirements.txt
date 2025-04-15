@@ -1,0 +1,5 @@
+# Dependencies untuk Universal Spam Chat Bot
+pyautogui==0.9.54
+pytest==7.4.0  # Optional (untuk testing)
+
+# Catatan: ADB tidak perlu diinstall via pip karena termasuk dalam Android Platform Tools
