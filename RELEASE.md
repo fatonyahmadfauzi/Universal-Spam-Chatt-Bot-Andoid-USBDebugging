@@ -1,26 +1,22 @@
-# Release Notes - Universal Spam Chat Bot (Android USB Debugging)
+# Release Notes - Universal Spam Chat Bot for Multi-Line Messages (Android USB Debugging)
 
-**🚀 Versi 1.0.0 (Stable Release)**
-**📅 Release Date**: 2025-04-16
+**🚀 Versi 2.0.0 (Multi-Line Messages)**
+**📅 Release Date**: 2025-04-19
 
 ---
 
-## ✨ Fitur Utama
+## ✨ Fitur Utama Baru
 
-- **Pengiriman Pesan Otomatis** via ADB dengan kontrol penuh atas:
-  - Konten pesan
-  - Jumlah pengulangan
-  - Interval waktu antar pesan
-- **Dukungan Multi-Platform**:
-  - Windows/macOS/Linux
-  - Android 5.0+ (dengan USB Debugging)
-- **Sistem Notifikasi Bot** opsional untuk melacak pengiriman
+- **Multi-pesan teks** (tidak terbatas jumlahnya)
+- **Antarmuka interaktif** dalam Bahasa Indonesia
+- **Escape karakter otomatis** untuk karakter khusus
+- **Optimasi kecepatan** pengiriman pesan
 
 ---
 
 ## 📦 Komponen
 
-- `spammer_android.py` - Script utama
+- `spammer_android.py` - Script utama (Multi-Line Messages)
 - Panduan konfigurasi ADB lengkap
 - Dependensi minimum (hanya Python 3.8+ dan ADB)
 
@@ -29,7 +25,8 @@
 ## 🛠️ Perubahan Teknis
 
 - Menggunakan `subprocess.run()` untuk eksekusi ADB yang lebih stabil
-- Penanganan spasi otomatis dalam pesan
+- Peningkatan escape karakter otomatis
+- Antarmuka pengguna yang lebih interaktif
 - Timer persiapan 5 detik sebelum eksekusi
 
 ---
@@ -38,7 +35,8 @@
 
 1. **Izin USB Debugging** harus diaktifkan di perangkat
 2. Aplikasi chat harus dalam fokus sebelum eksekusi
-3. Interval minimal yang disarankan: 1.5 detik untuk menghindari deteksi spam
+3. Interval minimal yang disarankan: 1 detik untuk menghindari deteksi spam
+4. Mendukung unlimited (Multi-Line Messages) dalam satu siklus
 
 ---
 
