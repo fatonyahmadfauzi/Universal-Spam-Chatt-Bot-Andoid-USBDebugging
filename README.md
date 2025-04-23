@@ -53,7 +53,7 @@ MIT License - Free untuk penggunaan pribadi dan komersial
 ## 🛠️ Struktur Proyek
 
 ```bash
-Universal-Spam-Chat-Bot-Android-USB-Debugging (Multi-Line Messages)/
+Universal-Spam-Chat-Bot-Android-USB-Debugging_Multi-Line-Messages/
 ├── .gitignore
 ├── LICENSE
 ├── README.md

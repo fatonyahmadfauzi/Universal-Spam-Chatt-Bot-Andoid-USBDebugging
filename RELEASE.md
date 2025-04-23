@@ -44,8 +44,9 @@
 
 ```bash
 # Clone repositori
-git clone https://github.com/[username]/Universal-Spam-Chat-Bot-Android-USB-Debugging.git
-cd Universal-Spam-Chat-Bot-Android-USB-Debugging
+git clone -b multi-line --single-branch https://github.com/fatonyahmadfauzi/Universal-Spam-Chat-Bot-Android-USB-Debugging.git Universal-Spam-Chat-Bot-Android-USB-Debugging_Multi-Line-Messages
+
+cd Universal-Spam-Chat-Bot-Android-USB-Debugging_Multi-Line-Messages
 
 # Install dependensi (opsional)
 pip install -r requirements.txt
